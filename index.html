@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f7faf5">
+<title>ဆက်သွယ်ရန်</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%}
+body{min-height:100vh;background:#f7faf5;font-family:"Noto Sans Myanmar","Myanmar Text",Arial,sans-serif;overflow:hidden}
+.home{min-height:100vh;display:grid;place-items:center;position:relative;isolation:isolate;padding:24px;background:radial-gradient(ellipse at 50% 46%,#fff 0%,#fff 25%,transparent 67%),linear-gradient(135deg,#f7faf5 0%,#edf5e9 100%)}
+.temples{position:absolute;inset:auto 0 0;width:100%;height:min(42vh,330px);z-index:-1;opacity:.13;color:#3c8051;pointer-events:none}
+.contact{display:inline-flex;align-items:center;justify-content:center;gap:18px;width:min(440px,92vw);min-height:94px;padding:22px 34px;border:1px solid #247548;border-radius:16px;background:#25834e;color:#fff;text-decoration:none;font-size:clamp(22px,3vw,30px);font-weight:700;box-shadow:0 12px 28px rgba(37,131,78,.18);transition:background .18s,transform .18s,box-shadow .18s}
+.contact:hover{background:#1e7042;transform:translateY(-2px);box-shadow:0 16px 32px rgba(37,131,78,.24)}
+.contact:focus-visible{outline:3px solid #9cc9a9;outline-offset:5px}
+.arrow{font-family:Arial,sans-serif;font-size:30px;font-weight:400}
+@media(max-width:480px){.contact{min-height:78px;border-radius:13px;gap:13px;padding:18px 22px}.arrow{font-size:25px}.temples{height:28vh}}
+@media(prefers-reduced-motion:reduce){.contact{transition:none}}
+</style>
+</head>
+<body>
+<main class="home">
+<svg class="temples" viewBox="0 0 1440 360" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+<g fill="currentColor">
+<path d="M0 335 Q120 315 240 330 T480 326 T720 332 T960 324 T1200 330 T1440 322 V360 H0Z"/>
+<g transform="translate(170 88)">
+<path d="M-58 247 L-47 235 L-32 235 L-24 220 L-15 220 L-15 205 L-8 205 L-8 185 L0 170 L8 185 L8 205 L15 205 L15 220 L24 220 L32 235 L47 235 L58 247Z"/>
+<path d="M-23 205 L-19 174 L-12 174 L-8 145 L0 119 L8 145 L12 174 L19 174 L23 205Z"/>
+<path d="M-12 145 L-8 108 L0 75 L8 108 L12 145Z"/><path d="M-5 80 L-3 42 L0 0 L3 42 L5 80Z"/>
+</g>
+<g transform="translate(1270 28) scale(1.4)">
+<path d="M-78 302 L-65 286 L-48 286 L-39 267 L-28 267 L-23 245 L-14 245 L-14 219 L-7 219 L-7 188 L0 164 L7 188 L7 219 L14 219 L14 245 L23 245 L28 267 L39 267 L48 286 L65 286 L78 302Z"/>
+<path d="M-34 245 L-28 205 L-18 205 L-13 165 L-7 165 L-7 129 L0 98 L7 129 L7 165 L13 165 L18 205 L28 205 L34 245Z"/>
+<path d="M-18 165 L-12 118 L-5 88 L0 52 L5 88 L12 118 L18 165Z"/><path d="M-5 55 L-3 23 L0 0 L3 23 L5 55Z"/>
+</g>
+<g transform="translate(720 195) scale(.75)">
+<path d="M-70 190 L-58 174 L-43 174 L-32 153 L-20 153 L-13 128 L-6 128 L-6 96 L0 72 L6 96 L6 128 L13 128 L20 153 L32 153 L43 174 L58 174 L70 190Z"/>
+<path d="M-24 128 L-18 88 L-8 58 L0 24 L8 58 L18 88 L24 128Z"/><path d="M-4 28 L-2 10 L0 0 L2 10 L4 28Z"/>
+</g>
+</g>
+</svg>
+<a class="contact" href="https://cutt.ly/M9_Official" target="_blank" rel="noopener noreferrer"><span>ဆက်သွယ်ရန်</span><span class="arrow" aria-hidden="true">→</span></a>
+</main>
+</body>
+</html>
